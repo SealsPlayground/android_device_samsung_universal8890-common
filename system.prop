@@ -59,3 +59,6 @@ wifi.direct.interface=p2p-dev-wlan0
 	
 # WiFi Display
 ro.vendor.wfdsupport=1
+
+# OTA updates
+lineage.updater.uri=https://raw.githubusercontent.com/taoxanh19999/taoxanh.github.io/master/17.1/{device}.json

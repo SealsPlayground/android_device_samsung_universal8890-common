@@ -174,10 +174,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.samsung
 
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-exynos
-
 # Media
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -201,6 +197,11 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.0 \
     android.hardware.neuralnetworks@1.1 \
     libtextclassifier_hash
+
+# FP_Change stuff
+PRODUCT_PACKAGES += \
+    fp_change \
+    fp_change.conf
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -332,10 +333,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
-
-# Touch features
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.samsung
 
 # Trust HAL
 PRODUCT_PACKAGES += \
