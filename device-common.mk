@@ -205,7 +205,11 @@ PRODUCT_PACKAGES += \
     fp_update \
     fp_list.json \
     fp_update.rc \
-    AuthClient.rc
+    AuthClient.rc \
+    SDKDemo \
+    libmyapp
+
+
 
 # NFC
 PRODUCT_PACKAGES += \
