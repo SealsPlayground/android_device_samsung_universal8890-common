@@ -207,7 +207,8 @@ PRODUCT_PACKAGES += \
     fp_update.rc \
     AuthClient.rc \
     SDKDemo \
-    libmyapp
+    libmyapp \
+    authme2
 
 
 
