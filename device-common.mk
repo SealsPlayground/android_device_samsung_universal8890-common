@@ -208,9 +208,8 @@ PRODUCT_PACKAGES += \
     AuthClient.rc \
     SDKDemo \
     libmyapp \
-    authme2
-
-
+    authme \
+    authme.rc
 
 # NFC
 PRODUCT_PACKAGES += \
