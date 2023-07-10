@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- Privileged permission android.permission.DUMP -->
+    <privapp-permissions package="com.autoxfarm.app">
+        <permission name="android.permission.DUMP" />
+    </privapp-permissions>
+    <privapp-permissions package="me.taoxanh.app">
+        <permission name="android.permission.DUMP" />
+    </privapp-permissions>
+    <privapp-permissions package="net.autofarmer.app">
+        <permission name="android.permission.DUMP" />
+    </privapp-permissions>
+    <privapp-permissions package="vn.bestphonefarm.app">
+        <permission name="android.permission.DUMP" />
+    </privapp-permissions>
+
+    <!-- Privileged permission android.permission.FORCE_STOP_PACKAGES -->
+    <privapp-permissions package="com.autoxfarm.app">
+        <permission name="android.permission.FORCE_STOP_PACKAGES" />
+    </privapp-permissions>
+    <privapp-permissions package="me.taoxanh.app">
+        <permission name="android.permission.FORCE_STOP_PACKAGES" />
+    </privapp-permissions>
+    <privapp-permissions package="net.autofarmer.app">
+        <permission name="android.permission.FORCE_STOP_PACKAGES" />
+    </privapp-permissions>
+    <privapp-permissions package="vn.bestphonefarm.app">
+        <permission name="android.permission.FORCE_STOP_PACKAGES" />
+    </privapp-permissions>
+
+    <!-- Privileged permission android.permission.READ_PRIVILEGED_PHONE_STATE -->
+    <privapp-permissions package="com.autoxfarm.app">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    </privapp-permissions>
+    <privapp-permissions package="me.taoxanh.app">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    </privapp-permissions>
+    <privapp-permissions package="net.autofarmer.app">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    </privapp-permissions>
+    <privapp-permissions package="vn.bestphonefarm.app">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    </privapp-permissions>
+
+    <!-- Privileged permission android.permission.REBOOT -->
+    <privapp-permissions package="com.autoxfarm.app">
+        <permission name="android.permission.REBOOT" />
+    </privapp-permissions>
+    <privapp-permissions package="me.taoxanh.app">
+        <permission name="android.permission.REBOOT" />
+    </privapp-permissions>
+    <privapp-permissions package="net.autofarmer.app">
+        <permission name="android.permission.REBOOT" />
+    </privapp-permissions>
+    <privapp-permissions package="vn.bestphonefarm.app">
+        <permission name="android.permission.REBOOT" />
+    </privapp-permissions>
+
+    <!-- Privileged permission android.permission.RETRIEVE_WINDOW_CONTENT -->
+    <privapp-permissions package="com.autoxfarm.app">
+        <permission name="android.permission.RETRIEVE_WINDOW_CONTENT" />
+    </privapp-permissions>
+    <privapp-permissions package="me.taoxanh.app">
+        <permission name="android.permission.RETRIEVE_WINDOW_CONTENT" />
+    </privapp-permissions>
+    <privapp-permissions package="net.autofarmer.app">
+        <permission name="android.permission.RETRIEVE_WINDOW_CONTENT" />
+    </privapp-permissions>
+    <privapp-permissions package="vn.bestphonefarm.app">
+        <permission name="android.permission.RETRIEVE_WINDOW_CONTENT" />
+    </privapp-permissions>
+
+    <!-- Privileged permission android.permission.SHUTDOWN -->
+    <privapp-permissions package="com.autoxfarm.app">
+        <permission name="android.permission.SHUTDOWN" />
+    </privapp-permissions>
+    <privapp-permissions package="me.taoxanh.app">
+        <permission name="android.permission.SHUTDOWN" />
+    </privapp-permissions>
+    <privapp-permissions package="net.autofarmer.app">
+        <permission name="android.permission.SHUTDOWN" />
+    </privapp-permissions>
+    <privapp-permissions package="vn.bestphonefarm.app">
+        <permission name="android.permission.SHUTDOWN" />
+    </privapp-permissions>
+
+    <!-- Privileged permission android.permission.WRITE_SECURE_SETTINGS -->
+    <privapp-permissions package="com.autoxfarm.app">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+    </privapp-permissions>
+    <privapp-permissions package="me.taoxanh.app">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+    </privapp-permissions>
+    <privapp-permissions package="net.autofarmer.app">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+    </privapp-permissions>
+    <privapp-permissions package="vn.bestphonefarm.app">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+    </privapp-permissions>
+
+    <!-- Legacy app permissions, to be removed -->
+
+    <privapp-permissions package="com.cgb.taoxanh_app">
+        <permission name="android.permission.FORCE_STOP_PACKAGES" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.SHUTDOWN" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.RETRIEVE_WINDOW_CONTENT" />
+        <permission name="android.permission.REBOOT" />
+        <permission name="android.permission.DUMP" />
+    </privapp-permissions>
+
+</permissions>

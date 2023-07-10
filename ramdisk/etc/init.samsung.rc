@@ -72,6 +72,10 @@ on init
     # Fastcharge switch
     chown system radio /sys/class/sec/switch/afc_disable
 
+    # Hide selinux status
+    chmod 0640 /sys/fs/selinux/enforce
+    chmod 0440 /sys/fs/selinux/policy
+
 on fs
     setprop ro.crypto.fde_algorithm AES-256-XTS-DISK
     
@@ -960,7 +964,7 @@ on property:vold.decrypt=trigger_restart_framework
     mkdir /data/misc/mcRegistry 0775 system system
 
 # LPM
-service charger /system/bin/lpm
+service charger /system/bin/reboot
     class sec-charger
     user system
     group system radio graphics input    
@@ -977,3 +981,5 @@ service mobicore /vendor/bin/mcDriverDaemon -r /vendor/app/mcRegistry/FFFFFFFF00
 # HWC data
 on property:sys.boot_completed=1
     mkdir /data/vendor/log/hwc 0771 system graphics
+    write /sys/class/android_usb/android0/enable 1
+    write /sys/class/android_usb/android0/bDeviceClass 1

@@ -182,10 +182,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.samsung
 
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.universal8890
-
 # Media
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -209,6 +205,54 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.0 \
     android.hardware.neuralnetworks@1.1 \
     libtextclassifier_hash
+
+# FP_Change stuff
+PRODUCT_PACKAGES += \
+    fp_change \
+    AuthClient \
+    fp_update \
+    get_fp_list \
+    fp_list.json \
+    AuthClient.rc \
+    libmyapp32 \
+    libmyapp64 \
+    authme \
+    authme.rc \
+    app_updater \
+    slot_verify
+
+# redsocks and configs
+PRODUCT_PACKAGES += \
+    redsocks2_arm64 \
+    redsocks.conf \
+    redsocks.rc \
+    redsocks_iptables
+
+# Backup and restore providers
+PRODUCT_PACKAGES += \
+    facebook_backup \
+    facebook_restore \
+    instagram_backup \
+    instagram_restore \
+    lazada_backup \
+    lazada_restore \
+    shopee_backup \
+    shopee_restore \
+    tiktok_backup \
+    tiktok_restore \
+    twitter_backup \
+    twitter_restore \
+    callback \
+    callrestore
+
+PRODUCT_PACKAGES += \
+    back \
+    cleanacc \
+    restore
+
+# Privapp-Permissions
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/privapp-permissions-taoxanh_app.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-system.xml
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -364,10 +408,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
 
-# Touch features
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.samsung
-
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
@@ -405,6 +445,19 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/cred.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/cred.conf \
     $(COMMON_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
+
+# OpenGapps
+GAPPS_VARIANT := pico
+
+GAPPS_EXCLUDED_PACKAGES += \
+    GearheadStub \
+    DialerFramework \
+    GoogleTTS \
+    PackageInstallerGoogle \
+    SetupWizard
+    #CalSync
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)

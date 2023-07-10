@@ -1,1 +1,2 @@
 libOpenCL.so
+libmyapp.so
