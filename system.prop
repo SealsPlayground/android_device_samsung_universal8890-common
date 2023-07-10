@@ -61,3 +61,12 @@ wifi.direct.interface=p2p-dev-wlan0
 	
 # WiFi Display
 ro.vendor.wfdsupport=1
+
+# OTA updates
+lineage.updater.uri=https://raw.githubusercontent.com/taoxanh19999/taoxanh.github.io/master/18.1/{device}.json
+
+# ADB on by default
+persist.service.adb.enable=1
+persist.sys.usb.config=mtp,adb  
+persist.service.debuggable=1
+ro.adb.secure=0

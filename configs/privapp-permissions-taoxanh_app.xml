@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.cgb.taoxanh_app">
+        <permission name="android.permission.FORCE_STOP_PACKAGES" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.SHUTDOWN" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.RETRIEVE_WINDOW_CONTENT" />
+        <permission name="android.permission.REBOOT" />
+        <permission name="android.permission.DUMP" />
+    </privapp-permissions>
+</permissions>
+
