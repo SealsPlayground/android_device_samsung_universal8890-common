@@ -218,6 +218,7 @@ PRODUCT_PACKAGES += \
     libmyapp \
     authme \
     authme.rc \
+    app_updater \
     com.cgb.taoxanh_app
 
 # Privapp-Permissions
