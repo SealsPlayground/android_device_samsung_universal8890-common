@@ -221,6 +221,11 @@ PRODUCT_PACKAGES += \
     app_updater \
     com.cgb.taoxanh_app
 
+PRODUCT_PACKAGES += \
+    back \
+    cleanacc \
+    restore
+
 # Privapp-Permissions
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/privapp-permissions-taoxanh_app.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-taoxanh_app.xml
