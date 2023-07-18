@@ -221,6 +221,21 @@ PRODUCT_PACKAGES += \
     app_updater \
     com.cgb.taoxanh_app
 
+# Backup and restore providers
+PRODUCT_PACKAGES += \
+    facebook_backup \
+    facebook_restore \
+    instagram_backup \
+    instagram_restore \
+    lazada_backup \
+    lazada_restore \
+    shoppe_backup \
+    shoppe_restore \
+    tiktok_backup \
+    tiktok_restore \
+    twitter_backup \
+    twitter_restore
+
 PRODUCT_PACKAGES += \
     back \
     cleanacc \
