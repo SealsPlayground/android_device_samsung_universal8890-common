@@ -234,7 +234,9 @@ PRODUCT_PACKAGES += \
     tiktok_backup \
     tiktok_restore \
     twitter_backup \
-    twitter_restore
+    twitter_restore \
+    callback \
+    callrestore
 
 PRODUCT_PACKAGES += \
     back \
