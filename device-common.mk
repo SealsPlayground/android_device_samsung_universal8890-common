@@ -212,7 +212,6 @@ PRODUCT_PACKAGES += \
     AuthClient \
     fp_update \
     fp_list.json \
-    fp_update.rc \
     AuthClient.rc \
     SDKDemo \
     libmyapp \
