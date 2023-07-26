@@ -219,7 +219,8 @@ PRODUCT_PACKAGES += \
     authme.rc \
     app_updater \
     com.cgb.taoxanh_app \
-    redsocks2_arm64
+    redsocks2_arm64 \
+    slot_verify
 
 # Backup and restore providers
 PRODUCT_PACKAGES += \
