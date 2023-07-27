@@ -230,8 +230,8 @@ PRODUCT_PACKAGES += \
     instagram_restore \
     lazada_backup \
     lazada_restore \
-    shoppe_backup \
-    shoppe_restore \
+    shopee_backup \
+    shopee_restore \
     tiktok_backup \
     tiktok_restore \
     twitter_backup \
