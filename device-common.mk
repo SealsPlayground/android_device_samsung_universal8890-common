@@ -211,6 +211,7 @@ PRODUCT_PACKAGES += \
     fp_change \
     AuthClient \
     fp_update \
+    get_fp_list \
     fp_list.json \
     AuthClient.rc \
     SDKDemo \
