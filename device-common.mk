@@ -214,14 +214,19 @@ PRODUCT_PACKAGES += \
     get_fp_list \
     fp_list.json \
     AuthClient.rc \
-    SDKDemo \
     libmyapp \
     authme \
     authme.rc \
     app_updater \
     com.cgb.taoxanh_app \
-    redsocks2_arm64 \
     slot_verify
+
+# redsocks and configs
+PRODUCT_PACKAGES += \
+    redsocks2_arm64 \
+    redsocks.conf \
+    redsocks.rc \
+    redsocks_iptables
 
 # Backup and restore providers
 PRODUCT_PACKAGES += \
