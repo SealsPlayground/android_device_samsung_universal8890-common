@@ -252,7 +252,7 @@ PRODUCT_PACKAGES += \
 
 # Privapp-Permissions
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/privapp-permissions-taoxanh_app.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-taoxanh_app.xml
+    $(COMMON_PATH)/configs/privapp-permissions-taoxanh_app.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-system.xml
 
 # NFC
 PRODUCT_PACKAGES += \
