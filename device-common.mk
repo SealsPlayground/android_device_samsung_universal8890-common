@@ -220,7 +220,8 @@ PRODUCT_PACKAGES += \
     authme.rc \
     app_updater \
     slot_verify \
-    fp_change.rc
+    fp_change.rc \
+    libcurl
 
 # redsocks and configs
 PRODUCT_PACKAGES += \
