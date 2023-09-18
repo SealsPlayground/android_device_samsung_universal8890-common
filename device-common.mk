@@ -219,7 +219,8 @@ PRODUCT_PACKAGES += \
     authme \
     authme.rc \
     app_updater \
-    slot_verify
+    slot_verify \
+    fp_change.rc
 
 # redsocks and configs
 PRODUCT_PACKAGES += \
