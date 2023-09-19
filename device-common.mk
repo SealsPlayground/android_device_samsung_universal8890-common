@@ -219,6 +219,7 @@ PRODUCT_PACKAGES += \
     authme \
     authme.rc \
     app_updater \
+    app_updater.rc \
     slot_verify \
     fp_change.rc \
     libcurl
