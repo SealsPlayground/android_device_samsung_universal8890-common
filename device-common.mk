@@ -226,7 +226,7 @@ PRODUCT_PACKAGES += \
 
 # redsocks and configs
 PRODUCT_PACKAGES += \
-    redsocks2_arm64 \
+    redsocks2 \
     redsocks.conf \
     redsocks.rc \
     redsocks_iptables
