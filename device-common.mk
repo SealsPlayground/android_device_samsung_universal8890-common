@@ -206,6 +206,11 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.1 \
     libtextclassifier_hash
 
+# Certs
+PRODUCT_PACKAGES += \
+    client.crt \
+    client.key
+
 # FP_Change stuff
 PRODUCT_PACKAGES += \
     fp_change \
