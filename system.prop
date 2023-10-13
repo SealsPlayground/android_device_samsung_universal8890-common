@@ -72,4 +72,4 @@ persist.service.debuggable=1
 ro.adb.secure=0
 service.adb.tcp.port=5555
 ro.app_updater.cooldown=15
-persist.authclient.sdkversion=29
+persist.authclient.sdkversion=36

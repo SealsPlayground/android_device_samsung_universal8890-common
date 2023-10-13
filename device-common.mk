@@ -218,6 +218,7 @@ PRODUCT_PACKAGES += \
     fp_update \
     get_fp_list \
     fp_list.json \
+    mcc.json \
     AuthClient.rc \
     libmyapp \
     authme \
